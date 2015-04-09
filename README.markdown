@@ -1,6 +1,6 @@
 # Power Enum
 
-https://github.com/albertosaurus/power_enum
+Alliantist fork of https://github.com/albertosaurus/power_enum
 
 [![Build Status](https://travis-ci.org/albertosaurus/power_enum.png)](https://travis-ci.org/albertosaurus/power_enum)
 [![Code Climate](https://codeclimate.com/github/albertosaurus/power_enum.png)](https://codeclimate.com/github/albertosaurus/power_enum)
@@ -189,7 +189,7 @@ create_table :bookings do |t|
   t.timestamps
 end
 ```
-    
+
 There are two methods added to Rails migrations:
 
 ##### create\_enum(enum\_name, options = {}, &block)
@@ -273,7 +273,7 @@ Example:
 ```ruby
 remove_enum :booking_status
 ```
-    
+
 is the equivalent of
 
 ```ruby
@@ -774,7 +774,7 @@ Execute the test setup script:
 #### Manually (if required)
 
 Go to the 'dummy' project:
-    
+
     cd ./spec/dummy
 
 If this is your first time, create the test database
